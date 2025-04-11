@@ -1,0 +1,64 @@
+.second-template-main-section{
+    display: flex;
+    margin: 10px;
+}
+
+.second-template-bg-container{
+    background-image: linear-gradient(#05817d, #ffffff);
+    height: 370px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.second-template-heading{
+    color: #3a038d;
+    font-family: caveat;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.qr-code-container{
+    display: flex;
+    align-items: center;
+}
+
+.student-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin-right: 30px;
+}
+
+.second-template-title{
+    color: #404041;
+    font-family: caveat;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.value{
+    color: #d36b04;
+    font-family: caveat;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.download-btn-section{
+    margin-left: 20px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dashed-section{
+    margin-left: 10px;
+}

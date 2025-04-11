@@ -1,0 +1,147 @@
+.student-home-bg-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.id-image{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
+
+.form-subcard-container{
+    background-color: lightblue;
+    height: 70vh;
+    min-width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px 0px #323f4b;
+    overflow-y: auto;
+}
+
+.student-form-heading{
+    color: green;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-container{
+    margin-left: 25px;
+    
+}
+
+.labelEl{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.inputEl{
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 15ppx;
+    font-weight: 500;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.class-select{
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+    height: 30px;
+    width: 150px;
+    padding-left: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.select-class-division-container{
+    display: flex;
+    align-items: center;
+}
+
+.selectEl-subcard{
+    margin-left: 70px;
+    min-width: auto;
+}
+
+.textboxEl{
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 15ppx;
+    font-weight: 500;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.checkboxLabelEl{
+    color: #323f4b;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.allergies-img-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.imageLabel-container{
+    margin-left: 100px;
+}
+
+.student-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 60px;
+}
+
+.select-rack-bus-route-container{
+    display: flex;
+    align-items: center;
+}
+
+.btn-container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.submit-btn{
+    background-color: #069954;
+    height: 35px;
+    width: 125px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+}
+
+.error-msg{
+    color: red;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+.template-popup-section{
+    background-color: lightpink;
+    height: 100%;
+    padding: 10px;
+    width: 600px;
+    opacity: 0.9;
+    
+}
+
+.template-bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-button{
+    background-color: transparent;
+    border: none;
+   
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trigger-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    height: 28px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.template-img{
+    height: 230px;
+    width: 270px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.template-heading{
+    color: #2c61bb;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.template-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}

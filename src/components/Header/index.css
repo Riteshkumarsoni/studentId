@@ -1,0 +1,33 @@
+.nav-bg-container{
+    background-color: aquamarine;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-heading{
+    color: #000000;
+    font-family: Lobster;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-list-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    color: #323f4b;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.nav-link{
+    text-decoration: none;
+}
